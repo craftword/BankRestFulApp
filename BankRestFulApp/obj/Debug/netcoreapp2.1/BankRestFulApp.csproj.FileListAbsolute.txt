@@ -1,0 +1,14 @@
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.deps.json
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.runtimeconfig.json
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.runtimeconfig.dev.json
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.dll
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.csprojAssemblyReference.cache
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.RazorAssemblyInfo.cache
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.RazorAssemblyInfo.cs
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.AssemblyInfoInputs.cache
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.AssemblyInfo.cs
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.RazorTargetAssemblyInfo.cache
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.pdb
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.dll
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.pdb
