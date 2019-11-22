@@ -10,36 +10,36 @@ namespace BankRestFulApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AdminController : ControllerBase
+    public class CustomerController : ControllerBase
     {
-        // GET: api/Admin
+        // GET: api/Customer
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/Admin/5
+        // GET: api/Customer/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/Admin
+        // POST: api/Customer
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
+        // POST: api/Customer/Login
 
-        // POST: api/Admin/Login
         [HttpPost("login")]
         public string LoginPost([FromBody] LoginModel LoginDetails)
         {
-            return Login.AdminLogin(LoginDetails);
+            return Login.CustomerLogin(LoginDetails);
         }
 
-        // PUT: api/Admin/5
+        // PUT: api/Customer/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {

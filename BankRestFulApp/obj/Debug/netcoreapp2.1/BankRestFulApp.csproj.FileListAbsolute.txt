@@ -3,7 +3,6 @@ C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.runtimeconfig.json
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.runtimeconfig.dev.json
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.dll
-C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.csprojAssemblyReference.cache
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.RazorAssemblyInfo.cache
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.RazorAssemblyInfo.cs
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.AssemblyInfoInputs.cache
@@ -12,3 +11,7 @@ C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\BankRestFulApp.pdb
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.dll
 C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.pdb
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\DBModels.dll
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\bin\Debug\netcoreapp2.1\DBModels.pdb
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.csprojAssemblyReference.cache
+C:\Users\craft\source\repos\BankRestFulApp\BankRestFulApp\obj\Debug\netcoreapp2.1\BankRestFulApp.csproj.CopyComplete

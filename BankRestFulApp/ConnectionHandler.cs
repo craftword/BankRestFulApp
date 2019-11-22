@@ -18,5 +18,24 @@ namespace BankRestFulApp
                 return con;
             }
         }
+
+        public static string SqlQuery (string qry)
+        {
+            SqlCommand cmd = new SqlCommand(qry, ConnectObj);
+            ConnectObj.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                ConnectObj.Close();
+                return "LOGIN SUCCESSFULLY";
+            }
+            else
+            {
+                ConnectObj.Close();
+                return "INVALID USERNAME OR PASSWORD";
+            }
+            
+
+        }
     }
 }
