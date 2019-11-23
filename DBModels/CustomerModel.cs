@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DBModels
 {
-    class CustomerModel
+    public class CustomerModel
     {
         
         public string CustomerFirstname { get; set; }
@@ -15,6 +15,6 @@ namespace DBModels
         public string AccountType { get; set; }
         public double Balance { get; set; }
         public string Created_at { get; set; }
-        public string PIN { get; set; }
+        public int PIN { get; set; }
     }
 }
