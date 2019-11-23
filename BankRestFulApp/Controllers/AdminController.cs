@@ -26,10 +26,11 @@ namespace BankRestFulApp.Controllers
             return "value";
         }
 
-        // POST: api/Admin
+        // POST: api/Admin Create admin
         [HttpPost]
-        public void Post([FromBody] string value)
+        public string Post([FromBody] UsersModel IncomingUsers)
         {
+            return Create.CreateUsers(IncomingUsers);
         }
 
         // POST: api/Admin/Login

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DBModels
 {
-    class Users
+    public class UsersModel
     {
         public string ID { get; set; }
         public string AdminFirstName { get; set; }

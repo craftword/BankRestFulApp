@@ -28,8 +28,9 @@ namespace BankRestFulApp.Controllers
 
         // POST: api/Customer
         [HttpPost]
-        public void Post([FromBody] string value)
+        public string Post([FromBody] CustomerModel IncomingCustomer)
         {
+            return Create.CreateCustomer(IncomingCustomer);
         }
         // POST: api/Customer/Login
 

@@ -37,5 +37,26 @@ namespace BankRestFulApp
             
 
         }
+        public static string SqlInsert(string qry)
+        {
+            SqlCommand cmd = new SqlCommand(qry, ConnectObj);
+            ConnectObj.Open();
+            try
+            {
+                int i = cmd.ExecuteNonQuery();
+                if (i >= 0)
+                {
+                    ConnectObj.Close();
+                    return "Insert Action was sucessfull";
+
+                }
+            }
+            catch (Exception ex)
+            {
+                return "The following error occurred during the write operation:" + ex.Message;
+            }
+
+            return "0";
+        }
     }
 }
