@@ -1,0 +1,8 @@
+C:\Users\craft\source\repos\BankRestFulApp\DBModels\bin\Debug\netstandard2.0\DBModels.deps.json
+C:\Users\craft\source\repos\BankRestFulApp\DBModels\bin\Debug\netstandard2.0\DBModels.dll
+C:\Users\craft\source\repos\BankRestFulApp\DBModels\bin\Debug\netstandard2.0\DBModels.pdb
+C:\Users\craft\source\repos\BankRestFulApp\DBModels\obj\Debug\netstandard2.0\DBModels.csprojAssemblyReference.cache
+C:\Users\craft\source\repos\BankRestFulApp\DBModels\obj\Debug\netstandard2.0\DBModels.AssemblyInfoInputs.cache
+C:\Users\craft\source\repos\BankRestFulApp\DBModels\obj\Debug\netstandard2.0\DBModels.AssemblyInfo.cs
+C:\Users\craft\source\repos\BankRestFulApp\DBModels\obj\Debug\netstandard2.0\DBModels.dll
+C:\Users\craft\source\repos\BankRestFulApp\DBModels\obj\Debug\netstandard2.0\DBModels.pdb
