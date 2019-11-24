@@ -62,7 +62,27 @@ namespace BankRestFulApp
             }
         }
 
+        public static decimal CheckBalance (string accountNumber)
+        {
+            string qry = String.Format("SELECT Balance FROM Account WHERE AccountNumber = '{0}'", accountNumber);
+            SqlCommand cmd = new SqlCommand(qry, ConnectionHandler.ConnectObj);
 
+            ConnectionHandler.ConnectObj.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                decimal bal = reader.GetDecimal(0);
+                ConnectionHandler.ConnectObj.Close();
+                return bal;
+                
+            }
+            else
+            {
+                ConnectionHandler.ConnectObj.Close();
+                return Convert.ToDecimal(0);
+            }
+           
+        }
         private static int UpdateDatabase(double newBalance, int accountID)
         {
             string qry = String.Format("UPDATE Account SET Balance= {0} WHERE AccountID={1}", newBalance, accountID);

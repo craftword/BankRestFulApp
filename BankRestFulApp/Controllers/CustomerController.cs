@@ -40,6 +40,13 @@ namespace BankRestFulApp.Controllers
             return Login.CustomerLogin(LoginDetails);
         }
 
+        [HttpPost("balance")]
+        public decimal CheckBalance([FromBody] CustomerModel IncomingCustomer)
+        {
+            //Console.WriteLine(IncomingCustomer.AccountNumber);
+            return AccountHandler.CheckBalance(IncomingCustomer.AccountNumber);
+        }
+
         // PUT: api/Customer/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
