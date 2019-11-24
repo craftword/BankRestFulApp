@@ -39,13 +39,35 @@ namespace BankRestFulApp.Controllers
         {
             return Login.CustomerLogin(LoginDetails);
         }
-
+        // POST : api/Customer/balance
         [HttpPost("balance")]
         public decimal CheckBalance([FromBody] CustomerModel IncomingCustomer)
         {
             //Console.WriteLine(IncomingCustomer.AccountNumber);
             return AccountHandler.CheckBalance(IncomingCustomer.AccountNumber);
         }
+
+        // POST : api/Customer/withdraw
+        [HttpPost("withdraw")]
+        public string Withdraw([FromBody] DepositModel IncomingCustomer)
+        {
+            CustomerModel acc = AccountHandler.GetCustomer(IncomingCustomer.AccountNumber);
+            
+            return AccountHandler.Withdraw(IncomingCustomer.Amount, acc.AccountType, Convert.ToDecimal(acc.Balance), Convert.ToInt32(acc.CustomerID), Convert.ToInt32(acc.AccountID));
+           
+        }
+
+        //POST : api/Customer/deposit
+        [HttpPost("deposit")]
+        public decimal Deposit([FromBody] DepositModel IncomingCustomer)
+        {
+            CustomerModel acc = AccountHandler.GetCustomer(IncomingCustomer.AccountNumber);
+            return AccountHandler.Deposit(Convert.ToDecimal(acc.Balance), IncomingCustomer.Amount, Convert.ToInt32(acc.CustomerID), Convert.ToInt32(acc.AccountID));
+
+            
+        }
+
+
 
         // PUT: api/Customer/5
         [HttpPut("{id}")]
