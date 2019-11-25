@@ -29,7 +29,7 @@ namespace BankRestFulApp
             }
         }
 
-        public static string Withdraw(string inputAmount, string accountType, decimal balance, int customerID, int accountID)
+        public static int Withdraw(string inputAmount, string accountType, decimal balance, int customerID, int accountID)
         {
             decimal input = Convert.ToDecimal(inputAmount);
             int minBalance = 0;
@@ -45,7 +45,7 @@ namespace BankRestFulApp
             if (input > (balance - minBalance))
             {
 
-                return "INSUFFICIENT BALANCE";
+                return 0;
 
             }
             else
@@ -55,12 +55,12 @@ namespace BankRestFulApp
                 {
                     string message = String.Format("Withdraw {0} from the account", input);
                     InsertTransaction(message, input, customerID, accountID);
-                    return String.Format("Withdraw {0} from the account", input); 
+                    return 1; 
                 }
                 else
                 {
 
-                    return "ERROR IN DATABASE";
+                    return -1;
                 }
             }
         }
@@ -86,7 +86,7 @@ namespace BankRestFulApp
             }
            
         }
-        private static int UpdateDatabase(decimal newBalance, int accountID)
+        public static int UpdateDatabase(decimal newBalance, int accountID)
         {
             string qry = String.Format("UPDATE Account SET Balance= {0} WHERE AccountID={1}", newBalance, accountID);
             SqlCommand cmd = new SqlCommand(qry, ConnectionHandler.ConnectObj);
